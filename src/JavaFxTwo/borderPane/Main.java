@@ -1,4 +1,4 @@
-package JavaFxTwo5od8.borderPane;
+package JavaFxTwo.borderPane;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

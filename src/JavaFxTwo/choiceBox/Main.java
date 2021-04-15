@@ -1,4 +1,4 @@
-package JavaFxTwo5od8.comboBox;
+package JavaFxTwo.choiceBox;
 
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectProperty;
@@ -13,16 +13,16 @@ import javafx.scene.control.SingleSelectionModel;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class ComboBox extends Application {
+public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
 
-    private ChoiceBox<String> fruitChoiceBox;
+    private javafx.scene.control.ChoiceBox<String> fruitChoiceBox;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        fruitChoiceBox = new ChoiceBox<>();
+        fruitChoiceBox = new javafx.scene.control.ChoiceBox<>();
         ObservableList<String> observableItems = fruitChoiceBox.getItems();
         observableItems.addAll("Jabuka", "Limun", "Kiwi", "Jagoda", "Mandarina");
         observableItems.add("Narandža");

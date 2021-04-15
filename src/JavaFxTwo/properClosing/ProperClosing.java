@@ -1,4 +1,4 @@
-package JavaFxTwo5od8.properClosing;
+package JavaFxTwo.properClosing;
 
 import JavaFxOne.confirmationDialog.ConfirmationDialog;
 import javafx.application.Application;
