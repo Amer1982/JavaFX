@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ModernJavaFxApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ModernJavaFxApp_jar</output-path>
+    <root id="archive" name="ModernJavaFxApp.jar">
+      <element id="module-output" name="ModernJavaFxApp" />
+    </root>
+  </artifact>
+</component>
